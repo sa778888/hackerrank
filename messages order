@@ -1,0 +1,23 @@
+#include <iostream>
+#include <algorithm>
+#include <vector>
+
+using namespace std;
+
+class Message {
+public: 
+    Message() {}
+    const string& get_text() {
+        
+    }
+};
+
+class MessageFactory {
+public:
+    MessageFactory() {}
+    Message create_message(const string& text) {
+        
+    }
+};
+
+class Recipient {
